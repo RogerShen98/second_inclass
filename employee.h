@@ -1,17 +1,16 @@
-#include <stdio.h> 
+#ifndef EMPLOYEE_H
+#define EMPLOYEE_H
 
-#include <stddef.h> 
+#include <stdio.h> 
+#include <stddef.h> 
 
-typedef struct { 
+typedef struct { 
+    long number; 
+    char *name; 
+    char *phone; 
+    double salary; 
 
-    long number; 
+} Employee, *PtrToEmployee; 
 
-    char *name; 
-
-    char *phone; 
-
-    double salary; 
-
-} Employee, *PtrToEmployee; 
-
-typedef const Employee *PtrToConstEmployee; 
+typedef const Employee *PtrToConstEmployee;
+#endif
