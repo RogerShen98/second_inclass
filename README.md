@@ -1,6 +1,10 @@
 # second_inclass
 
-EmployeeSearch –  On the other two branches
+EmployeeSearch –  
+
+NOTE: On the other two branches
+
+
 
 
 Call this branch – search-multiple-function
@@ -11,7 +15,14 @@ employeeTwo.c – Complete searching the table for other entries by passing in t
 
 NOTE: employeeMain.c should be the same for both of the implementations above. 
 
+
+
+
 Lo Shu Magic Square
+
+
+
+
 The Lo Shu Magic Square is a grid with 3 rows and 3 columns 
 
 The Lo Shu Magic Square has the following properties: 
